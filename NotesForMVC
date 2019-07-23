@@ -1,0 +1,9 @@
+I am using here, MVC approach for building this application.
+MVC -> Model, View  and Controller
+
+1-> Model -> stands for the data, that we are dealing with.In our case, its gonna be items in to-do-list. It could be users or form data on other sites(essentially data).
+
+2-> View ->  View is what we send to the user. In our case, it could be *.ejs files and it could have some data embedded into it that user could see.
+
+3-> Controller -> Brigdes the Model and View components.Controls certain sections of the applications. Any kind of manipulation on data is done overhere.So, basically things like rendering views, manipulating data, handling routes all is done in Controller.
+                
