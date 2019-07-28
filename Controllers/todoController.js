@@ -69,4 +69,8 @@ module.exports = (app)=>{
         
     })
 
+    app.all('*',(req, res)=>{
+        res.status('404').send('Sorry , we didnt found requested page!!!!')
+    })
+
 }
